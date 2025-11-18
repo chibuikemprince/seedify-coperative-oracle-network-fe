@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# Builds & caches
+dist/
+build/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.turbo/
+.cache/
+
+# Hardhat / web3 tooling
+contracts/artifacts/
+contracts/cache/
+contracts/typechain/
+
+# Logs & diagnostics
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+
+# Environment & secrets
+.env
+.envrc
+.env.local
+.env.*.local
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+contracts/.env
+contracts/.env.*
+!backend/.env.example
+!frontend/.env.example
+!contracts/.env.example
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Misc
+temp/
+tmp/
